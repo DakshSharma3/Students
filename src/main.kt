@@ -21,6 +21,9 @@ fun main(){
 //        }
 //    }
     var student = Students(1, "Sarah", "English")
-    println(student.getGrade())
-    println(student.didPass())
+    print("Enter your marks: ")
+    var marks: Double = readln().toDouble()
+    student.mark = marks
+
+println("Marks: ${student.mark}, Grade ${student.getGrade()}, Passed? ${student.didPass()}")
 }
