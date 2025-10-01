@@ -20,7 +20,7 @@ fun main(){
 //            finished = true
 //        }
 //    }
-    var student = Students(1, "Sarah", "English", 89.0)
+    var student = Students(1, "Sarah", "English")
     println(student.getGrade())
     println(student.didPass())
 }

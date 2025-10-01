@@ -1,6 +1,6 @@
-class Students(var id: Int, var name: String, var course: String, private var markPassed: Double){
+class Students(var id: Int, var name: String, var course: String){
 
-    var mark = 0.0
+    var mark: Double = 0.0
         set (newMark){
             if (newMark in 0.0..100.0){
                 field = newMark
