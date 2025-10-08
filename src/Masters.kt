@@ -9,4 +9,8 @@ class Masters(id: Int, name: String, course: String) : Students(id, name, course
         }
         return grade
     }
+
+    override fun toString(): String {
+        return "Student name: $name, Course name: $course, Course type: Masters, Marks: $mark "
+    }
 }
