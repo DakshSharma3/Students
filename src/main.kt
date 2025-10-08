@@ -20,7 +20,7 @@ fun main(){
 //            finished = true
 //        }
 //    }
-    var student = Students(1, "Sarah", "English")
+    var student = Masters(1, "Sarah", "English")
     print("Enter your marks: ")
     var marks: Double = readln().toDouble()
     student.mark = marks
